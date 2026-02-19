@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massimo Fusci - Giocatore e Allenatore di Calcio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px 20px;
+        }
+
+        .profile-section {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .photo {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .photo img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            border: 4px solid #667eea;
+        }
+
+        .bio {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .bio h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .bio p {
+            margin-bottom: 15px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .section li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .section li:before {
+            content: "⚽";
+            position: absolute;
+            left: 0;
+        }
+
+        footer {
+            background: #f8f9fa;
+            color: #666;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #e9ecef;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .profile-section {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Massimo Fusci</h1>
+            <p>Giocatore e Allenatore di Calcio</p>
+        </header>
+
+        <div class="content">
+            <div class="profile-section">
+                <div class="photo">
+                    <img src="https://www.biografieonline.it/img/bio/m/massimofusci.jpg" alt="Massimo Fusci">
+                </div>
+
+                <div class="bio">
+                    <h2>Chi è Massimo Fusci</h2>
+                    <p>
+                        Massimo Fusci è una figura importante nel panorama calcistico italiano, noto per la sua carriera sia come giocatore che come allenatore. Nel corso della sua vita calcistica, ha prestato servizio in diverse squadre e ha ricoperto ruoli che lo hanno reso un personaggio rispettato nell'ambiente.
+                    </p>
+                    <p>
+                        Con una lunga esperienza maturata sul campo, Fusci ha dimostrato dedizione e competenza nel calcio italiano, contribuendo sia come atleta che come tecnico alla formazione delle nuove generazioni di calciatori.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Carriera da Giocatore</h3>
+                <ul>
+                    <li>Esperienza pluriennale nelle categorie calcistiche italiane</li>
+                    <li>Partecipazione a numerosi campionati e competizioni</li>
+                    <li>Ruolo determinante nella storia di diverse squadre</li>
+                    <li>Dimostrò qualità tecniche e leadership in campo</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Carriera da Allenatore</h3>
+                <ul>
+                    <li>Transizione al ruolo di allenatore dopo la fine della carriera agonistica</li>
+                    <li>Conduzione di squadre in vari livelli del calcio italiano</li>
+                    <li>Insegnamento e trasmissione dell'esperienza ai giovani calciatori</li>
+                    <li>Contributo significativo alla formazione tecnico-tattica delle squadre</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Eredità Calcistica</h3>
+                <ul>
+                    <li>Rispetto acquisito nell'ambiente calcistico italiano</li>
+                    <li>Impatto positivo sullo sviluppo delle competenze calcistiche</li>
+                    <li>Memoria legata a importanti momenti della storia calcistica locale</li>
+                    <li>Continuità tra generazioni di calciatori attraverso l'insegnamento</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Massimo Fusci - Calcio italiano. Sito creato con dedizione.</p>
+        </footer>
+    </div>
+</body>
+</html>
